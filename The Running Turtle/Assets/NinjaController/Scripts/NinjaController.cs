@@ -13,7 +13,7 @@ namespace NinjaController {
     [SerializeField]
     private PhysicsParams physicsParams;
 
-    public Vector2 Velocity { get { return(RBody.velocity); } }
+    public Vector2 Velocity { get { return (RBody.velocity); } }
 
     public Vector2 VelocityRelativeGround { get { return(Velocity / PhysicsParams.onGroundMaxVelHorizontal); } }
 
