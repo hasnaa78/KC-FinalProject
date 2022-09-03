@@ -29,7 +29,7 @@ public class crab : MonoBehaviour
         rb.velocity = new Vector2(speed, 0f);
 
         bool isgrounded = Physics2D.OverlapCircle(groundPos.position, rad, groundLayer);
-        if (isgrounded)
+        if (isgrounded) 
         {
             transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
             speed += -1;

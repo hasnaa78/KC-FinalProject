@@ -6,6 +6,8 @@ TagManager:
   tags:
   - turn
   - ENEMY
+  - ground
+  - player
   layers:
   - Default
   - TransparentFX
